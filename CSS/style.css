@@ -2,17 +2,18 @@ body {
     background-image: linear-gradient(to right top, #193764, #4a3262, #692b53, #7b2b3c, #7d3724);
     background-repeat: no-repeat;
     height: 100vh;
+    overflow-y: hidden;
 }
 
 h1 {
-    font-size: 4rem;
-    font-weight: bold;
+    font-size: 5rem;
+    font-weight: 400;
     color: #ffffff;
     text-align: center;
-    text-shadow: 2px 3px 0px #898999;
+    text-shadow: 2px 3px 3px #898999;
     line-height: 1.2;
     margin-top: 5rem;
-    font-family: 'Aboreto', display;
+    font-family: 'Advent Pro', sans-serif;
 }
 
 .carte {
@@ -64,12 +65,14 @@ h1 {
     margin-top: 4rem;
     margin-bottom: 9rem;
     font-weight: 800;
+    text-align: center;
 }
 
 
 .carte a {
     color: white;
     text-decoration: none;
+    padding: 0.5rem;
 }
   
 .carte a:hover {
@@ -81,4 +84,13 @@ footer {
     color: white;
     text-shadow: 2px 3px 3px #898999;
 }
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    opacity: .7;
+  }
 
