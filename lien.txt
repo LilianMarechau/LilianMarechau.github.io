@@ -16,9 +16,10 @@ https://stackoverflow.com/
 https://www.w3schools.com/cssref/pr_font_font-size.php
 https://developer.mozilla.org/fr/docs/Web/HTML/%C3%89l%C3%A9ments_en_ligne
 https://developer.mozilla.org/fr/docs/Web/HTML/%C3%89l%C3%A9ments_en_bloc
-
+https://developer.mozilla.org/fr/docs/Web/HTML/Element#s%C3%A9mantique_du_texte_en_ligne
 
 css
+https://freefrontend.com/css-code-examples/
 https://specificity.keegan.st
 https://codepen.io/ncerminara/pen/RLMwmy
 https://meyerweb.com/eric/tools/css/reset/
