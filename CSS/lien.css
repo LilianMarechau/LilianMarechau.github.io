@@ -54,7 +54,9 @@ body {
 
 .retour {
     margin: 7rem 0;
-
+    position: fixed;
+    left: 48%;
+    bottom: -30px;
 }
 
 .retour img {
@@ -67,8 +69,24 @@ body {
     padding: 1rem;
 }
 
-.retour {
-    position: fixed;
-    left: 48%;
-    bottom: -30px;
+.retour img::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to right top, #5683c6, #9679c0, #c36fa7, #da6d83, #da795e);
+    z-index: -1;
+    transition: opacity 0.2s linear;
+    border-radius: 50px;
+    -webkit-box-shadow: 0px 0px 37px 5px #1f1f21d6; 
+    box-shadow: 0px 0px 37px 5px #1f1f21d6;
+    opacity: 0;
 }
+
+.retour:hover::before {
+    opacity: 1;
+  }
+
+
