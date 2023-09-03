@@ -11,6 +11,7 @@ body {
     gap: 7rem;
     margin-top: 8rem;
     font-family: 'Alegreya Sans SC', sans-serif;
+    margin-bottom: 15rem;
 }
 
 .container__cartes {
@@ -48,7 +49,7 @@ body {
 }
 
 .container__cartes a:hover {
-    background-image: linear-gradient(to right top, #6e98d677, #a987d877, #c36fa777, #da6d8377, #da795e77);
+    background-color: rgba(227, 226, 226, 0.295);
 }
 
 .retour {
@@ -57,12 +58,17 @@ body {
 }
 
 .retour img {
-    width: 2%;
+    width: 6%;
     background-image: linear-gradient(to right top, #5683c677, #9679c077, #c36fa777, #da6d8377, #da795e77);
     border-radius: 50px;
     -webkit-box-shadow: 0px 0px 20px 5px #1f1f21d6; 
     box-shadow: 0px 0px 20px 5px #1f1f21d6;
     backdrop-filter: blur(6px);
-    padding: 1.2rem;
+    padding: 1rem;
 }
 
+.retour {
+    position: fixed;
+    left: 48%;
+    bottom: -30px;
+}
