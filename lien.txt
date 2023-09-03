@@ -45,7 +45,7 @@ php
 https://www.php-fig.org/psr/psr-1/
 https://www.php.net/docs.php
 https://fabioclock.github.io/support-tableaux/?array_pick=5
-
-
-
+https://fabioclock.github.io/boucles/?language=php&loop=for
+https://fabioclock.github.io/support-tableaux/?array_pick=42
+https://fabioclock.github.io/support-fonctions/
 
