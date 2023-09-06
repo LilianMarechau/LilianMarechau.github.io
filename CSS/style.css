@@ -83,7 +83,7 @@ footer a:hover {
 @media screen and (max-width: 1400px) {
     body {
       overflow-y: scroll;
-      height: 100vh;
+      height: 100%;
     }
   }
 
