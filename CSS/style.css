@@ -56,8 +56,10 @@ h1 {
 }
 
 .carte__CSS a {
-    padding: 9rem 5.2rem;
+    padding: 8rem 5.2rem;
+    text-align: center;
 }
+
   
 .carte a:hover {
     opacity: .9;
@@ -77,6 +79,7 @@ footer a {
 footer a:hover {
     opacity: .7;
 }
+
 
 @media screen and (max-width: 1400px) {
     body {
@@ -117,3 +120,14 @@ footer a:hover {
     }
 }
 
+
+@media screen and (min-width: 1500px) {
+    .carte__CSS a {
+        padding: 9rem 5rem;
+        text-align: center;
+    }
+
+    .carte__generique a {
+        padding: 8rem 3rem;
+    }
+}
