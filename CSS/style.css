@@ -41,26 +41,6 @@ h1 {
 }
 
 
-.cartes::before {
-    position: absolute;
-    content: '';
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-image: linear-gradient(to right top, #5683c6, #9679c0, #c36fa7, #da6d83, #da795e);
-    z-index: -1;
-    transition: opacity 0.2s linear;
-    border-radius: 50px;
-    -webkit-box-shadow: 0px 0px 37px 5px #1f1f21d6; 
-    box-shadow: 0px 0px 37px 5px #1f1f21d6;
-    opacity: 0;
-}
-
-.cartes:hover::before {
-    opacity: 1;
-  }
-
 .cartes h2 {
     font-size: 1.9rem;
     color: white;
@@ -103,4 +83,35 @@ footer a:hover {
     }
   }
 
+
+@media screen and (min-width: 600px) {
+    .cartes::before {
+        position: absolute;
+        content: '';
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-image: linear-gradient(to right top, #5683c6, #9679c0, #c36fa7, #da6d83, #da795e);
+        z-index: -1;
+        transition: opacity 0.2s linear;
+        border-radius: 50px;
+        -webkit-box-shadow: 0px 0px 37px 5px #1f1f21d6; 
+        box-shadow: 0px 0px 37px 5px #1f1f21d6;
+        opacity: 0;
+    }
+    
+    .cartes:hover::before {
+        opacity: 1;
+      }
+    
+
+}
+
+@media screen and (max-width: 600px) {
+    .cartes {
+        background-image: linear-gradient(to right top, #5683c6, #9679c0, #c36fa7, #da6d83, #da795e);
+        background-repeat: no-repeat;
+    }
+}
 
