@@ -5,8 +5,6 @@ body {
     overflow-y: hidden;
 }
 
-
-
 h1 {
     font-size: 5rem;
     font-weight: 400;
@@ -86,6 +84,9 @@ footer a:hover {
       height: 100%;
     }
   }
+
+
+  
 
 
 @media screen and (min-width: 600px) {

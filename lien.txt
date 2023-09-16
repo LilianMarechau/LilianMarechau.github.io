@@ -6,6 +6,7 @@ https://fabioclock.github.io/front-back/
 https://developer.mozilla.org/fr/docs/Web/HTML/Element#s%C3%A9mantique_du_texte_en_ligne
 https://matthew.wagerfield.com/parallax/
 https://bonpatron.com/fr/?utm_content=cmp-true
+https://stackedit.io/
 
 HTML
 https://www.w3schools.com/
@@ -49,3 +50,7 @@ https://fabioclock.github.io/boucles/?language=php&loop=for
 https://fabioclock.github.io/support-tableaux/?array_pick=42
 https://fabioclock.github.io/support-fonctions/
 
+js
+https://developer.mozilla.org/fr/docs/Learn/JavaScript/Building_blocks/Events
+https://developer.mozilla.org/fr/docs/Web/Events
+https://animejs.com/
