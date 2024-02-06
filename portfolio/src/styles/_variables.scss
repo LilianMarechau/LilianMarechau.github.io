@@ -1,0 +1,24 @@
+$header-height: 3rem;
+
+/*========== Colors ==========*/
+$hue: 56;
+$sat: 63%;
+$first-color: #745237;
+$first-color-alt: hsl($hue, $sat, 36%);
+$title-color: hsl($hue, 12%, 15%);
+$text-color: hsl($hue, 8%, 35%);
+$body-color: hsl($hue, 100%, 99%);
+$container-color: #fff;
+
+/*========== Font and typography ==========*/
+$body-font: 'Open Sans', sans-serif;
+$h1-font-size: 1.5rem;
+$normal-font-size: 0.938rem;
+$tiny-font-size: 0.625rem;
+
+/*========== z index ==========*/
+$z-tooltip: 10;
+$z-fixed: 100;
+
+$h1-font-size-desktop: 2.25rem;
+$normal-font-size-desktop: 1rem;
